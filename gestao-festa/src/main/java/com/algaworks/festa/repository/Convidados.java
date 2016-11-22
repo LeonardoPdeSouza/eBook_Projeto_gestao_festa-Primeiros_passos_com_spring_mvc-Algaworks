@@ -9,13 +9,15 @@ import com.algaworks.festa.model.Convidado;
 
 @Repository
 public class Convidados {
+
 	private static final List<Convidado> LISTA_CONVIDADOS = new ArrayList<>();
+	
 	static {
 		LISTA_CONVIDADOS.add(new Convidado("Leonardo", 2));
-		LISTA_CONVIDADOS.add(new Convidado("Luciele", 3));
-		LISTA_CONVIDADOS.add(new Convidado("Pyttoko", 1));
+		LISTA_CONVIDADOS.add(new Convidado("Pyttoko", 3));
+		LISTA_CONVIDADOS.add(new Convidado("Luciele", 1));
 	}
-
+	
 	public List<Convidado> todos() {
 		return Convidados.LISTA_CONVIDADOS;
 	}
@@ -23,4 +25,5 @@ public class Convidados {
 	public void adicionar(Convidado convidado) {
 		Convidados.LISTA_CONVIDADOS.add(convidado);
 	}
+	
 }
