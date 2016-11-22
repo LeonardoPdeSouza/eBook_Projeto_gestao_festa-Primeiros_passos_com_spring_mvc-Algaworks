@@ -9,7 +9,7 @@
 	<packaging>war</packaging>
 
 	<name>gestao-festa</name>
-	<description>Demo project for Spring Boot</description>
+	<description>Exemplo do Livreto Algaworks - Primeiros passos com Spring MVC </description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
